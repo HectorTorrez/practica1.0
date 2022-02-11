@@ -1,14 +1,16 @@
 <template>
   <div id="app">
+    <header-title title='Programacion Computacional IV'/>
   </div>
 </template>
 
 <script>
-
+import HeaderTitle from './components/HeaderTitle.vue'
 
 export default {
   name: 'App',
   components: {
+    HeaderTitle
     
   }
 }
