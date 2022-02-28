@@ -1,16 +1,22 @@
 <template>
   <div id="app">
     <header-title title='Programacion Computacional IV'/>
+   <list-products/>
   </div>
 </template>
 
 <script>
 import HeaderTitle from './components/HeaderTitle.vue'
+import ListProducts from './components/ListProducts.vue'
+
+
+
 
 export default {
   name: 'App',
   components: {
-    HeaderTitle
+    HeaderTitle,
+   ListProducts
     
   }
 }
